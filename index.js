@@ -21,5 +21,9 @@ function makeInt(a){
   return parseInt(a,10)
 }
 function isNaN(a){
-  return parseInt(a,10)
+  if (parseInt(a,10)===NaN){
+    return true
+  }else{
+    return false
+  }
 }
