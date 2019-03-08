@@ -27,3 +27,6 @@ function isNaN(a){
     return false
   }
 }
+funtion preserveDecimal(a){
+  return parseFloat(a)
+}
